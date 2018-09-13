@@ -1,0 +1,95 @@
+14:17:10.059 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+14:17:11.170 request:
+1 > GET http://ergast.com/api/f1/2017/Circuits.json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: ergast.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+14:17:11.460 response time in milliseconds: 287
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Length: 4551
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 12 Sep 2018 19:05:36 GMT
+1 < Server: Apache/2.2.15 (CentOS)
+1 < X-Powered-By: PHP/5.3.3
+{"MRData":{"xmlns":"http:\/\/ergast.com\/mrd\/1.4","series":"f1","url":"http://ergast.com/api/f1/2017/circuits.json","limit":"30","offset":"0","total":"20","CircuitTable":{"season":"2017","Circuits":[{"circuitId":"albert_park","url":"http:\/\/en.wikipedia.org\/wiki\/Melbourne_Grand_Prix_Circuit","circuitName":"Albert Park Grand Prix Circuit","Location":{"lat":"-37.8497","long":"144.968","locality":"Melbourne","country":"Australia"}},{"circuitId":"americas","url":"http:\/\/en.wikipedia.org\/wiki\/Circuit_of_the_Americas","circuitName":"Circuit of the Americas","Location":{"lat":"30.1328","long":"-97.6411","locality":"Austin","country":"USA"}},{"circuitId":"bahrain","url":"http:\/\/en.wikipedia.org\/wiki\/Bahrain_International_Circuit","circuitName":"Bahrain International Circuit","Location":{"lat":"26.0325","long":"50.5106","locality":"Sakhir","country":"Bahrain"}},{"circuitId":"BAK","url":"http:\/\/en.wikipedia.org\/wiki\/Baku_City_Circuit","circuitName":"Baku City Circuit","Location":{"lat":"40.3725","long":"49.8533","locality":"Baku","country":"Azerbaijan"}},{"circuitId":"catalunya","url":"http:\/\/en.wikipedia.org\/wiki\/Circuit_de_Barcelona-Catalunya","circuitName":"Circuit de Barcelona-Catalunya","Location":{"lat":"41.57","long":"2.26111","locality":"Montmeló","country":"Spain"}},{"circuitId":"hungaroring","url":"http:\/\/en.wikipedia.org\/wiki\/Hungaroring","circuitName":"Hungaroring","Location":{"lat":"47.5789","long":"19.2486","locality":"Budapest","country":"Hungary"}},{"circuitId":"interlagos","url":"http:\/\/en.wikipedia.org\/wiki\/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace","circuitName":"Autódromo José Carlos Pace","Location":{"lat":"-23.7036","long":"-46.6997","locality":"São Paulo","country":"Brazil"}},{"circuitId":"marina_bay","url":"http:\/\/en.wikipedia.org\/wiki\/Marina_Bay_Street_Circuit","circuitName":"Marina Bay Street Circuit","Location":{"lat":"1.2914","long":"103.864","locality":"Marina Bay","country":"Singapore"}},{"circuitId":"monaco","url":"http:\/\/en.wikipedia.org\/wiki\/Circuit_de_Monaco","circuitName":"Circuit de Monaco","Location":{"lat":"43.7347","long":"7.42056","locality":"Monte-Carlo","country":"Monaco"}},{"circuitId":"monza","url":"http:\/\/en.wikipedia.org\/wiki\/Autodromo_Nazionale_Monza","circuitName":"Autodromo Nazionale di Monza","Location":{"lat":"45.6156","long":"9.28111","locality":"Monza","country":"Italy"}},{"circuitId":"red_bull_ring","url":"http:\/\/en.wikipedia.org\/wiki\/Red_Bull_Ring","circuitName":"Red Bull Ring","Location":{"lat":"47.2197","long":"14.7647","locality":"Spielburg","country":"Austria"}},{"circuitId":"rodriguez","url":"http:\/\/en.wikipedia.org\/wiki\/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez","circuitName":"Autódromo Hermanos Rodríguez","Location":{"lat":"19.4042","long":"-99.0907","locality":"Mexico City","country":"Mexico"}},{"circuitId":"sepang","url":"http:\/\/en.wikipedia.org\/wiki\/Sepang_International_Circuit","circuitName":"Sepang International Circuit","Location":{"lat":"2.76083","long":"101.738","locality":"Kuala Lumpur","country":"Malaysia"}},{"circuitId":"shanghai","url":"http:\/\/en.wikipedia.org\/wiki\/Shanghai_International_Circuit","circuitName":"Shanghai International Circuit","Location":{"lat":"31.3389","long":"121.22","locality":"Shanghai","country":"China"}},{"circuitId":"silverstone","url":"http:\/\/en.wikipedia.org\/wiki\/Silverstone_Circuit","circuitName":"Silverstone Circuit","Location":{"lat":"52.0786","long":"-1.01694","locality":"Silverstone","country":"UK"}},{"circuitId":"sochi","url":"http:\/\/en.wikipedia.org\/wiki\/Sochi_Autodrom","circuitName":"Sochi Autodrom","Location":{"lat":"43.4057","long":"39.9578","locality":"Sochi","country":"Russia"}},{"circuitId":"spa","url":"http:\/\/en.wikipedia.org\/wiki\/Circuit_de_Spa-Francorchamps","circuitName":"Circuit de Spa-Francorchamps","Location":{"lat":"50.4372","long":"5.97139","locality":"Spa","country":"Belgium"}},{"circuitId":"suzuka","url":"http:\/\/en.wikipedia.org\/wiki\/Suzuka_Circuit","circuitName":"Suzuka Circuit","Location":{"lat":"34.8431","long":"136.541","locality":"Suzuka","country":"Japan"}},{"circuitId":"villeneuve","url":"http:\/\/en.wikipedia.org\/wiki\/Circuit_Gilles_Villeneuve","circuitName":"Circuit Gilles Villeneuve","Location":{"lat":"45.5","long":"-73.5228","locality":"Montreal","country":"Canada"}},{"circuitId":"yas_marina","url":"http:\/\/en.wikipedia.org\/wiki\/Yas_Marina_Circuit","circuitName":"Yas Marina Circuit","Location":{"lat":"24.4672","long":"54.6031","locality":"Abu Dhabi","country":"UAE"}}]}}}
+
+14:17:11.566 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+14:17:11.608 request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 24
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+name=morpheus&job=leader
+
+14:17:11.973 response time in milliseconds: 364
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-RAY: 45945e993cbfab6c-YYZ
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 12 Sep 2018 18:17:12 GMT
+1 < ETag: W/"54-wusDoY1L4GRMt3wKujguc3cMc/M"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8cef150674a5f9304393f2522d55f9e01536776231; expires=Thu, 12-Sep-19 18:17:11 GMT; path=/; domain=.reqres.in; HttpOnly
+1 < X-Powered-By: Express
+{"name":"morpheus","job":"leader","id":"246","createdAt":"2018-09-12T18:19:22.599Z"}
+
+14:17:12.008 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+14:17:12.017 request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 31
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+name=morpheus&job=zion+resident
+
+14:17:12.210 response time in milliseconds: 192
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-RAY: 45945e9ace71ab8a-YYZ
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 12 Sep 2018 18:17:12 GMT
+1 < ETag: W/"50-nGiuAjxd+dT80Q/b3TqcPFqwHDA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dbd203fded913a3fa1bf9c499a80921261536776232; expires=Thu, 12-Sep-19 18:17:12 GMT; path=/; domain=.reqres.in; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < X-Powered-By: Express
+{"name":"morpheus","job":"zion resident","updatedAt":"2018-09-12T18:19:22.857Z"}
+
+14:17:12.254 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+14:17:12.258 request:
+1 > DELETE https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+14:17:12.454 response time in milliseconds: 196
+1 < 204
+1 < Access-Control-Allow-Origin: *
+1 < CF-RAY: 45945e9c5dcaab60-YYZ
+1 < Connection: keep-alive
+1 < Date: Wed, 12 Sep 2018 18:17:12 GMT
+1 < ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d053470e1153d7027163fd5342019b7ab1536776232; expires=Thu, 12-Sep-19 18:17:12 GMT; path=/; domain=.reqres.in; HttpOnly
+1 < X-Powered-By: Express
+
+Id":"shanghai","url":"http://en.wikipedia.org/wiki/Shanghai_International_Circuit","circuitName":"Shanghai International Circuit","Location":{"lat":"31.3389","long":"121.22","locality":"Shanghai","country":"China"}},{"circuitId":"silverstone","url":"http://en.wikipedia.org/wiki/Silverstone_Circuit","circuitName":"Silverstone Circuit","Location":{"lat":"52.0786","long":"-1.01694","locality":"Silverstone","country":"UK"}},{"circuitId":"sochi","url":"http://en.wikipedia.org/wiki/Sochi_Autodrom","circuitName":"Sochi Autodrom","Location":{"lat":"43.4057","long":"39.9578","locality":"Sochi","country":"Russia"}},{"circuitId":"spa","url":"http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps","circuitName":"Circuit de Spa-Francorchamps","Location":{"lat":"50.4372","long":"5.97139","locality":"Spa","country":"Belgium"}},{"circuitId":"suzuka","url":"http://en.wikipedia.org/wiki/Suzuka_Circuit","circuitName":"Suzuka Circuit","Location":{"lat":"34.8431","long":"136.541","locality":"Suzuka","country":"Japan"}},{"circuitId":"villeneuve","url":"http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve","circuitName":"Circuit Gilles Villeneuve","Location":{"lat":"45.5","long":"-73.5228","locality":"Montreal","country":"Canada"}},{"circuitId":"yas_marina","url":"http://en.wikipedia.org/wiki/Yas_Marina_Circuit","circuitName":"Yas Marina Circuit","Location":{"lat":"24.4672","long":"54.6031","locality":"Abu Dhabi","country":"UAE"}}]}}}
